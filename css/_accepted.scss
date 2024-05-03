@@ -1,0 +1,102 @@
+
+
+#accepted {
+    padding: 60px 0;
+    section.wrapper {}
+    div.center-for {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div.ticked-mark {
+            width: 60px;
+            display: block;
+            margin-right: 20px;
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+        }
+        div {
+            p.ticked-content {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            p.map {
+                font-size: 18px;
+                a {
+                    font-weight: 900;
+                    margin-left: 6px;
+                }
+            }
+        }
+    } //div.center-for ended
+    div.map-image {
+        margin: 10px auto 0;
+        display: block;
+        width: max-content;
+        div.map-container {
+            width: 250px;
+            display: block;
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    section.all-align {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div.first {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            img {
+                width: 60px;
+                margin: 0 auto 10px;
+                display: block;
+            }
+            p.accepted-tick {
+            }
+            p.collect-green {
+                text-align: center;
+                background-color: #426b1f;
+                color: #fff;
+                border-radius: 10px;
+                padding: 3px 9px;
+            }
+            a.collected-verify {
+                text-align: center;
+                background-color: #F45B69;
+                color: #fff;
+                border-radius: 10px;
+                padding: 3px 9px;
+                display: block;
+                margin: 0 auto;
+                width: auto;
+            }
+            a.not-yet {
+                text-align: center;
+                background-color: #F45B69;
+                color: #fff;
+                border-radius: 10px;
+                padding: 3px 9px;
+                display: block;
+                margin: 0 auto;
+                width: auto;
+                opacity: 0.5;
+            }
+        }
+        div.line {
+            img {
+                width: auto;
+                height: 120px;
+                display: block;
+            }
+        }
+    }
+} //#accepted ended

@@ -1,0 +1,101 @@
+
+a {
+    color: #000;
+}
+
+
+header {
+    padding: 40px 0;
+    section.wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+            color: #426b1f;
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+            font-size: 44px;
+            text-align: center;
+        }
+        a.notification {
+            img {
+                width: 30px;
+                display: block;
+            }
+        }
+    }
+}
+
+#user {
+    section.wrapper {
+        width: 80%;
+        max-width: 1200px;
+        display: block;
+        margin: 0 auto;
+    }
+    h3.calling {
+        font-size: 24px;
+    }
+    p.make {
+        font-size: 18px;
+    }
+    section.all-features {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        a.each-feature {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            div.feature-image {
+                margin-right: 20px;
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 10px;
+                    display: block;
+                }
+            }
+            div {
+                h3 {
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 20px;
+                    width: 80%;
+                }
+            }
+        }
+    } //section.all-features ended
+    div.for-centering {
+        display: flex;
+        justify-content: center;
+        section.all-dashboards {
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            div.each-dash {
+                margin-right: 40px;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 40px;
+                text-align: center;
+                p {
+                    font-family: "Montserrat", sans-serif;
+                    // font-family: "Newsreader", serif;
+                    display: block;
+                    font-size: 28px;
+                    span {
+                        font-size: 48px;
+                        display: block;
+                    }
+                }
+            }
+        } //section.all-dashboards ended
+    } //div.for-centering ended
+} // #user ended

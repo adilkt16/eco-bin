@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eco-bin | Garbage Pick</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <h1><a href="./user.html"><img src="images/ecobin.png" alt="eco" /></a></h1>
+                <!-- <h1>Eco-Bin</h1> -->
+                <a href="#" class="notification">
+                    <img src="images/hamburger.png" alt="notification" />
+                </a>
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="pickup">
+            <section class="wrapper">
+                <div class="all-section-pick">
+                    <div class="each-pickup">
+                        <h5 class="question">What sort of waste do you have ?</h5>
+                        <div class="all-answers">
+                            <button class="all-waste" onclick="showPayment()">Bio Waste</button>
+                            <button class="all-waste" onclick="showPayment()">Non Bio Waste</button>
+                            <button class="all-waste" onclick="showPayment()">Electronic Waste</button>
+                            <button class="all-waste" onclick="showPayment()">Combined</button>
+                            <!-- <button class="submit-one">Submit</button> -->
+                        </div>
+                    </div> <!-- .each-pickup ended -->
+                    <div class="each-pickup pay">
+                        <p class="payment-method">Pay Via <span class="method">Paypal</span> / <span class="method">Razorpay</span></p>
+                        <!-- <a href="./paymentdone.html" class="paynow" onclick="redirectToPayment()">Paypal</a> -->
+                        <!-- <a href="./paymentdone.html" class="paynow" onclick="redirectToPayment()">Razorpay</a> -->
+                        <a href="#" class="paynow" onclick="redirectToPayment()">Razorpay</a>
+                        <a href="#" class="paynow" onclick="redirectToPayment()">Paypal</a>
+                    </div>
+                    <div class="qr">
+                        <p class="qr-text">Scan The Q R</p>
+                        <div class="qr-photo">
+                            <img src="images/qr.png" alt="QR scan" />
+                        </div>
+                    </div>
+                </div> <!-- .all-section-pick ended -->
+            </section> <!-- .wrapper ended -->
+        </section> <!-- #pickup ended -->
+        
+        <script>
+            function showPayment() {
+                    // Delay for 500ms (0.5 seconds) before displaying payment options
+                    setTimeout(function() {
+                        // Display payment options with smooth animation
+                        document.querySelector('.pay').style.transition = 'display 0.5s ease';
+                        document.querySelector('.pay').style.display = 'block';
+                    }, 200); 
+                }
+
+            // function redirectToPayment() {
+            //     setTimeout(function() {
+            //         console.log("working")
+            //         window.location.href = './paymentdone.html';
+            //     }, 1000); // 1000 milliseconds = 1 second
+            // }
+            function redirectToPayment() {
+            // Make the QR section visible
+            document.querySelector('.qr').style.display = 'block';
+                
+                setTimeout(function() {
+                    console.log("working")
+                    window.location.href = './paymentdone.html';
+                }, 2000); 
+            }
+        </script>
+    </body>
+</html>

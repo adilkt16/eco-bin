@@ -1,0 +1,28 @@
+@import "main";
+@import "user";
+@import "pickup";
+@import "payment";
+@import "worker";
+@import "accepted";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+ul , ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+section.wrapper {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}

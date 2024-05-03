@@ -1,0 +1,32 @@
+
+
+#payed {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    section.wrapper {}
+    div.payed-image {
+        width: 400px;
+        display: block;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    h2.done {
+        font-size: 36px;
+    }
+    p.confirmation {
+        font-size: 16px;
+    }
+    a.tohome {
+        margin-top: 20px;
+        padding: 6px 18px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 10px;
+        background-color:#426b1f;
+        display: inline-block;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eco-bin | Payment Done</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="wrapper">
+                <h1><a href="./user.html"><img src="images/ecobin.png" alt="eco" /></a></h1>
+                <!-- <h1>Eco-Bin</h1> -->
+                <a href="#" class="notification">
+                    <img src="images/hamburger.png" alt="notification" />
+                </a>
+            </section> <!-- .wrapper ended -->
+        </header>
+        <section id="payed">
+            <section class="wrapper">
+                <div class="payed-image">
+                    <img src="images/pay.png" alt="payed" />
+                </div>
+                <h2 class="done">Payment Completed !</h2>
+                <p class="confirmation">Picker shall reach soon...</p>
+                <a href="./user.html" class="tohome">Home</a>
+            </section>
+        </section>
+
+        <script>
+            function showAlert() {
+                setTimeout(function() {
+                    alert("Your order has been accepted by a picker! He will arive shortly");
+                }, 3000);
+            }
+            window.onload = showAlert;
+        </script>
+    </body>
+</html>

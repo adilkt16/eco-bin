@@ -1,0 +1,70 @@
+
+
+
+#pickup {
+    section.wrapper {}
+    div.all-section-pick {
+        div.each-pickup {
+            margin-bottom: 40px;
+            h5.question {
+                font-size: 24px;
+            }
+            div.all-answers {
+                margin: 10px 0;
+                button.all-waste {
+                    background-color: #426b1f;
+                    color: #fff;
+                    padding: 10px 30px;
+                    font-size: 16px;
+                    margin-right: 10px;
+                    border-radius: 6px;
+                    cursor: pointer;
+                }
+            }
+            button.submit-one {
+                font-family: "Montserrat", sans-serif;
+                border:1px solid #426b1f;
+                color: #000;
+                padding: 10px 30px;
+                font-size: 16px;
+                margin-right: 10px;
+                border-radius: 4px;
+            }
+        } //div.each-pickup ended
+        div.pay {
+            display: none;
+            p.payment-method {
+                font-size: 24px;
+                font-weight: bold;
+                span {
+                    color: #426b1f;
+                } 
+            }
+            a.paynow {
+                font-size: 18px;
+                padding: 5px 20px;
+                border-radius: 4px;
+                background-color: #426b1f;
+                color: #fff;
+                margin-top: 10px;
+                margin-right: 10px;
+                display: inline-block;
+            }
+        }
+        div.qr {
+            display: none;
+            p.qr-text {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            div.qr-photo {
+                img {
+
+                }
+            }
+        }
+    } //div.all-section-pick ended
+} //#pickup ended
+
+
+
